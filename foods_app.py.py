@@ -1,8 +1,8 @@
 import streamlit as st 
 st.title("This is my project")
 
-st.header("This is a header")
-st.subheader("This is a subheader")
+st.header("This is a header of food app")
+st.subheader("This is a subheader of file")
 
 
 st.text("This is plain text")
@@ -37,3 +37,4 @@ st.write(f"Your hobbies: {', '.join(hobbies)}")
 # Sliders and Number Input
 age = st.slider("Select your age", 1, 100, 25)
 st.write(f"Your age is: {age}")
+
